@@ -13,7 +13,7 @@ readonly SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 readonly DATA_DIR="$HOME/.termux_pro"
 readonly LOG_FILE="$DATA_DIR/logs/system_$(date +%Y%m%d).log"
 readonly DB_FILE="$DATA_DIR/database.json"
-readonly LOCK_FILE="/tmp/termux_pro.lock"
+readonly LOCK_FILE="$TMPDIR/termux_pro.lock"
 
 # Couleurs avancées
 readonly C_RESET='\033[0m'
